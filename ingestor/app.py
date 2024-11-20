@@ -54,11 +54,11 @@ def s3_handler(event):
     data = json.loads(text)
 
     # parse the data fields 1-by-1 from 'data'
-    TITLE = 'No Surprises'
-    ALBUM = 'Ok Computer'
-    ARTIST = 'Radiohead'
-    YEAR = 1997
-    GENRE = 1
+    TITLE = 
+    ALBUM = 
+    ARTIST = 
+    YEAR = 
+    GENRE = 
 
     # get the unique ID for the bundle to build the mp3 and jpg urls
     # you get 5 data points in each new JSON file that arrives, but
