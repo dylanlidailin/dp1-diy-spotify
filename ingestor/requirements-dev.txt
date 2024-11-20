@@ -1,3 +1,6 @@
+chalice
+pytest
 mysql-connector-python
+boto3
 uvicorn
 fastapi[standard]

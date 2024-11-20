@@ -5,7 +5,10 @@ name = "pypi"
 
 [packages]
 mysql-connector-python = "*"
-fastapi = "*"
+uvicorn = "*"
+typing = "*"
+pydantic = "*"
+fastapi = {extras = ["standard"], version = "*"}
 
 [dev-packages]
 
